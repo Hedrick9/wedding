@@ -3,12 +3,12 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Greebornaut</title>
-  <link rel="stylesheet" href="style.css" />
+  <title>S&R Get Hitched</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}" />
 </head>
 <body>
   <div class="container">
-    <img src="images/kp_cowgirl.png" alt="My Profile Picture" class="profile-pic">
+    <img src="{{ url_for('static', filename='images/kp_cowgirl.png') }}" alt="My Profile Picture" class="Photo1">
     <h1>Sam & Russell</h1>
     <p class="bio">Hello и Привет my sweet little bean! :) </p>
     <h2>Random</h2>
@@ -20,3 +20,4 @@
   </div>
 </body>
 </html>
+
