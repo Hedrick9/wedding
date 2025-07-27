@@ -1,0 +1,40 @@
+body {
+  font-family: Helvetica, Sans-serif;
+  background-color: #4a0016;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 600px;
+  margin: 40px auto;
+  background-color: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.profile-pic {
+  width: 150px;
+  border-radius: 25%;
+  margin-bottom: 20px;
+}
+
+.bio {
+  font-size: 1.1em;
+  margin-bottom: 20px;
+}
+
+.skills {
+  list-style: none;
+  padding: 0;
+}
+
+.skills li {
+  background-color: #e0e7ff;
+  margin: 5px 0;
+  padding: 8px;
+  border-radius: 6px;
+}
