@@ -19,7 +19,7 @@
       const correct = "opensesame"; // Set your password here
 
       if (input === correct) {
-        window.location.href = "{{ url_for('main') }}"; // Redirect to protected page
+        window.location.href = "{{ url_for('home') }}"; // Redirect to protected page
       } else {
         document.getElementById("error").style.display = "block";
       }

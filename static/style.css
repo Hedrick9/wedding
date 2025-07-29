@@ -38,3 +38,68 @@ body {
   padding: 8px;
   border-radius: 6px;
 }
+
+
+/* Reset default list behavior */
+.navbar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Overall navbar styling */
+.navbar {
+  background-color: #4a2a2e;
+  border-bottom: 2px solid #e0e0e0;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+  padding: 0.5rem 1rem;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* Layout container */
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+/* Logo/title */
+.nav-logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #a2cbfa;
+}
+
+/* Horizontal list of links */
+.nav-links {
+  display: flex;
+  gap: 1.5rem;
+}
+
+/* Individual links */
+.nav-links a {
+  text-decoration: none;
+  color: #a2cbfa ;
+  font-weight: 500;
+  padding: 0.25rem 0;
+  position: relative;
+}
+
+/* Hover effect */
+.nav-links a::after {
+  content: '';
+  display: block;
+  height: 2px;
+  background: #555;
+  transition: width 0.3s;
+  width: 0;
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+}
+
+.nav-links a:hover::after {
+  width: 100%;
+}
